@@ -1,8 +1,7 @@
 def summ(a, b):
     total = int(a) + int(b)
-    print(f'{total}')
+    return total
 
-
-if __name__ == '__main__':
-    summ(1, 5)
-
+def diff(a, b):
+    total = int(a) - int(b)
+    return total
